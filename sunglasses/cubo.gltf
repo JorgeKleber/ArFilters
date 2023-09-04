@@ -1,0 +1,95 @@
+{
+  "asset": {
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cube"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "COLOR_0": 2
+          },
+          "indices": 3,
+          "mode": 4
+        }
+      ],
+      "name": "CubeMesh"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 24
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 24
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "type": "VEC4",
+      "componentType": 5126,
+      "count": 24
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "type": "SCALAR",
+      "componentType": 5125,
+      "count": 36
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteLength": 72
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 744,
+      "uri": "data:application/octet-stream;base64,..."  // Dados binários aqui
+    }
+  ],
+  "materials": [
+    {
+      "name": "GreenMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.0, 1.0, 0.0, 1.0]
+      }
+    }
+  ]
+}

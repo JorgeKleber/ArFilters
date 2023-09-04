@@ -1,95 +1,205 @@
 {
-  "asset": {
-    "version": "2.0"
-  },
-  "scene": 0,
-  "scenes": [
-    {
-      "nodes": [0]
-    }
-  ],
-  "nodes": [
-    {
-      "mesh": 0,
-      "name": "Cube"
-    }
-  ],
-  "meshes": [
-    {
-      "primitives": [
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
         {
-          "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "COLOR_0": 2
-          },
-          "indices": 3,
-          "mode": 4
+            "name" : "Scene",
+            "nodes" : [
+                5
+            ]
         }
-      ],
-      "name": "CubeMesh"
-    }
-  ],
-  "accessors": [
-    {
-      "bufferView": 0,
-      "byteOffset": 0,
-      "type": "VEC3",
-      "componentType": 5126,
-      "count": 24
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 0,
-      "type": "VEC3",
-      "componentType": 5126,
-      "count": 24
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 0,
-      "type": "VEC4",
-      "componentType": 5126,
-      "count": 24
-    },
-    {
-      "bufferView": 3,
-      "byteOffset": 0,
-      "type": "SCALAR",
-      "componentType": 5125,
-      "count": 36
-    }
-  ],
-  "bufferViews": [
-    {
-      "buffer": 0,
-      "byteLength": 288
-    },
-    {
-      "buffer": 0,
-      "byteLength": 288
-    },
-    {
-      "buffer": 0,
-      "byteLength": 384
-    },
-    {
-      "buffer": 0,
-      "byteLength": 72
-    }
-  ],
-  "buffers": [
-    {
-      "byteLength": 744,
-      "uri": "data:application/octet-stream;base64,..."  // Dados binários aqui
-    }
-  ],
-  "materials": [
-    {
-      "name": "GreenMaterial",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [0.0, 1.0, 0.0, 1.0]
-      }
-    }
-  ]
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "am_body",
+            "scale" : [
+                0.08000000566244125,
+                0.08000000566244125,
+                0.08000000566244125
+            ],
+            "translation" : [
+                0,
+                6.019999980926514,
+                0
+            ]
+        },
+        {
+            "name" : "NOSE_TIP",
+            "translation" : [
+                0,
+                -0.4630002975463867,
+                -7.586580753326416
+            ]
+        },
+        {
+            "name" : "FOREHEAD_RIGHT",
+            "rotation" : [
+                0.14623038470745087,
+                -0.27242931723594666,
+                0.041930895298719406,
+                0.9500740766525269
+            ],
+            "scale" : [
+                1,
+                0.9999998807907104,
+                1.0000001192092896
+            ],
+            "translation" : [
+                3.7090003490448,
+                6.963999271392822,
+                -3.9810001850128174
+            ]
+        },
+        {
+            "name" : "FOREHEAD_LEFT",
+            "rotation" : [
+                0.14623038470745087,
+                0.27242937684059143,
+                -0.041930895298719406,
+                0.9500740766525269
+            ],
+            "scale" : [
+                0.9999999403953552,
+                0.9999997615814209,
+                0.9999999403953552
+            ],
+            "translation" : [
+                -3.7090003490448,
+                6.9640092849731445,
+                -3.9809999465942383
+            ]
+        },
+        {
+            "children" : [
+                1,
+                2,
+                3
+            ],
+            "name" : "root",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                0,
+                4
+            ],
+            "name" : "asset",
+            "rotation" : [
+                0,
+                0.7071067094802856,
+                -0.7071068286895752,
+                -3.0908616110991716e-08
+            ],
+            "scale" : [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "body",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.9810126423835754,
+                    0.6721456050872803,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2681,
+            "max" : [
+                81.28997802734375,
+                22.717060089111328,
+                -3.1523725986480713
+            ],
+            "min" : [
+                -81.28996276855469,
+                -114.49226379394531,
+                -52.1900634765625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2681,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2681,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 14394,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 32172,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32172,
+            "byteOffset" : 32172
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 21448,
+            "byteOffset" : 64344
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28788,
+            "byteOffset" : 85792
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 114580,
+            "uri" : "scene.bin"
+        }
+    ]
 }

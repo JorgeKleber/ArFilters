@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lumecluster Dreamer Half Mask: Beacon
+* source:	https://sketchfab.com/3d-models/lumecluster-dreamer-half-mask-beacon-9b68ac54e73f4d558c6e1bf55616be63
+* author:	lumecluster (https://sketchfab.com/lumecluster)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lumecluster Dreamer Half Mask: Beacon" (https://sketchfab.com/3d-models/lumecluster-dreamer-half-mask-beacon-9b68ac54e73f4d558c6e1bf55616be63) by lumecluster (https://sketchfab.com/lumecluster) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
